@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Express Backend Example</title>
+</head>
+<body>
+  <h1>Simple Express Backend Example</h1>
+  <div id="response"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      fetch('/')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('response').innerText = data;
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+        });
+    });
+  </script>
+</body>
+</html>
