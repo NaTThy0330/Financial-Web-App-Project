@@ -23,13 +23,13 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/finance-management-app.git
+    git clone https://github.com/NaTThy0330/Financial-Web-App-Project.git
     ```
 
 2. **Navigate to the project directory**:
 
     ```bash
-    cd finance-management-app
+    cd Financial-Web-App-Project
     ```
 
 3. **Install dependencies**:
